@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="h-screen w-full bg-gradient-to-t from-[#d946ef] to-[#7e22ce] flex justify-center items-center">
+        <div class="h-2/3 w-96 border-4 border-yellow-600 rounded-2xl ">
+            <div class="h-32 w-full flex justify-center items-center ">
+                <p class="font-mono text-4xl text-gray-300 text-bold">Sign-In</p>
+            </div>
+            <div class=" h-28 w-full  flex justify-start items-center ">
+                <div class="relative ml-10 ">
+                    <div class="absolute pointer-events-auto rounded-2xl"></div>
+                    <input type="text" placeholder="Login" class="h-8 w-72 rounded-xl ">
+                </div>
+            </div>
+            <div class=" h-28 w-full  flex justify-start items-center ">
+                <div class="relative ml-10 ">
+                    <div class="absolute pointer-events-auto rounded-2xl"></div>
+                    <input type="password" placeholder="Password" class="h-8 w-72 rounded-xl ">
+                </div>
+            </div>
+            <div class="h-8 w-full  flex justify-around  ">
+                <a class=" font-mono focus:ring-2 focus:ring-yellow-600 text-bold text-gray-300 rounded-xl mr-4 " href="./sign-up.html"> A create account</a>
+                <button class=" font-mono  text-bold text-gray-300 mr-4"> Forgot password?</button>
+            </div>
+            <div class="w-full h-20  flex justify-center items-center rounded-b-xl">
+                <button class="h-8 w-40 bg-gradient-to-t from-[#fbbf24] to-yellow-600 rounded-full">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
